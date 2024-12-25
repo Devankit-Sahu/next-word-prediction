@@ -7,7 +7,7 @@ This project is focused on predicting the next word in a sequence using deep lea
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/next-word-prediction.git
+   git clone https://github.com/Devankit-Sahu/next-word-prediction.git
    cd next-word-prediction
    ```
 
