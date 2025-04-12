@@ -26,3 +26,4 @@ yarn-error.log*
 
 tokenizer.pkl
 final_model.h5
+.ipynb_checkpoints/
