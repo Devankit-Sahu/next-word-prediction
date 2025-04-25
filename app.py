@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 
 # Load the model and tokenizer
-model = load_model("final_model.h5")
+model = load_model("final_model1.h5")
 with open("tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
@@ -47,8 +47,9 @@ if st.button("Predict"):
     if input_text.strip():
         with st.spinner("Predicting..."):
             result = predict_next_words(input_text, num_words)
-        st.success("✨ Prediction Complete!")
-        st.markdown(f"**Predicted Text : ** {result}")
+        st.markdown("**🧠 Predicted Sentence:**")
+        st.code(result, language="markdown")
+
     else:
         st.error("Please enter some text to start predicting.")
 
